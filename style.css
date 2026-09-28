@@ -1,0 +1,21 @@
+* {
+margin: 0px;
+padding:0px;
+box-sizing: border-box;
+}
+
+.modoclaro { 
+    background-color: blue;
+
+
+}
+.modoescuro {
+    background-color: red;
+
+}
+#simples{
+background-color:red
+
+
+}
+
