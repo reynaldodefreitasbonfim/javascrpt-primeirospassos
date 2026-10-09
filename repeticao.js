@@ -10,11 +10,11 @@ while(usuarioAcertouAsenha == false) {
 //codigo a ser repetido
 // ate a condicao ser satisfeita 
 } document.write("acesso leberado");*/
-var nomeDousuario = prompt("digite seu nome completo");
-document.write("nomeDo Usuario tem " + nomeDousuario.length + " letras<br>")
-for (let i = 0; i  < nomeDousuario.length; i = i + 1) {
-    document.write("O contador vale:" +  i + "<br>" );
- } // codigo a ser repetido
+//var nomeDousuario = prompt("digite seu nome completo");
+//document.write("nomeDo Usuario tem " + nomeDousuario.length + " letras<br>")
+//for (let i = 0; i  < nomeDousuario.length; i = i + 1) {
+   // document.write("O contador vale:" +  i + "<br>" );
+  // codigo a ser repetido
 // ate que a contador atinja a condicao de parada
 
 

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Botão com JavaScript</title>
+  <style>
+    /* Estilização básica do botão */
+    .meu-botao {
+      padding: 12px 24px;
+      font-size: 16px;
+      color: #ffffff;
+      background-color: #007bff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: background-color 0.2s ease;
+    }
+
+    .meu-botao:hover {
+      background-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Botão no HTML -->
+  <button id="btnClique" class="meu-botao">Clique Aqui</button>
+
+  <!-- JavaScript -->
+  <script>
+    // 1. Seleciona o elemento pelo ID
+    const botao = document.getElementById('btnClique');
+
+    // 2. Adiciona o ouvinte de evento de clique (addEventListener)
+    botao.addEventListener('click', function() {
+      alert('Você clicou no botão!');
+    });
+  </script>
+
+</body>
+</html>

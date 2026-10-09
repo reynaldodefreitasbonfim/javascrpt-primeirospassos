@@ -4,8 +4,12 @@ padding:0px;
 box-sizing: border-box;
 }
 
+header{
+    background-color: aqua;
+}
+
 .modoclaro { 
-    background-color: blue;
+    background-color: rgb(113, 113, 221);
 
 
 }
@@ -15,7 +19,6 @@ box-sizing: border-box;
 }
 #simples{
 background-color:red
-
 
 }
 
